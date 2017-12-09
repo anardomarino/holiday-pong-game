@@ -1,4 +1,9 @@
 import javax.swing.JFrame;
+
+/*
+* @author Anthony Nardomarino
+*/ 
+
 public class Pong extends JFrame{
     public Pong(){
         add(new Game());
