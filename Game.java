@@ -11,6 +11,11 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
+
+/*
+*  @author Anthony Nardomarino
+*/
+
 public class Game extends JPanel implements Runnable, KeyListener{
     private boolean leftUp = false, leftDown = false, rightUp = false, rightDown = false,
     ballUp = false, ballDown = false, rightServe = false, leftServe = true,
